@@ -9,5 +9,5 @@ export type Product = {
 export type OrderLocationdata = {
     latitude: number;
     longitude: number;
-    addess: string; 
+    address: string; 
 }
