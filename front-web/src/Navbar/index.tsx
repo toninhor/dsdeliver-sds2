@@ -1,5 +1,6 @@
 import './styles.css';
 import { ReactComponent as Logo } from './logo.svg';
+import { ReactComponent as LogoMail } from './logo-mail.svg';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -7,7 +8,8 @@ function Navbar() {
         <nav className="main-navbar">
             <Logo />
             <Link to="/" className="logo-text">DS Devivery</Link>
-            <Link to="/webmail" className="logo-mail">&nbsp;&nbsp;&nbsp; <img src="./logo-mail.svg" alt="E-mail" /></Link>
+            <LogoMail />
+            <Link to="/webmail" className="logo-text">E-mail</Link>
         </nav>
     )
 }
