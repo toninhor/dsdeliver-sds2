@@ -12,11 +12,11 @@ function Routes() {
                 <Route path="/orders">
                     <Orders />
                 </Route>
-                <Route path="/">
-                    <Home />
-                </Route>
                 <Route path="/webmail">
                   <WebmailRedirect />
+                </Route>
+                <Route path="/">
+                    <Home />
                 </Route>
             </Switch>
         </BrowserRouter>
