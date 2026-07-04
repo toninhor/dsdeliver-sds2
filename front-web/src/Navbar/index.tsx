@@ -7,7 +7,7 @@ function Navbar() {
         <nav className="main-navbar">
             <Logo />
             <Link to="/" className="logo-text">DS Devivery</Link>
-            <Link to="/webmail" className="logo-mail">&nbsp;&nbsp;&nbsp; <img src="logo-mail.svg" alt="E-mail" /> E-mail</Link>
+            <Link to="/webmail" className="logo-mail">&nbsp;&nbsp;&nbsp; <img src="./logo-mail.svg" alt="E-mail" /></Link>
         </nav>
     )
 }
