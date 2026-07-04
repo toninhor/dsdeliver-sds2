@@ -15,7 +15,9 @@ function Routes() {
                 <Route path="/">
                     <Home />
                 </Route>
-                <Route path="/webmail" element={<WebmailRedirect />} />
+                <Route path="/webmail">
+                  <WebmailRedirect />
+                </Route>
             </Switch>
         </BrowserRouter>
     )
