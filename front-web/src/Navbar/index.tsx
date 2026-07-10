@@ -17,7 +17,7 @@ function Navbar() {
     //Check the document content
     console.log('O conteúdo de document é:', document);
 
-    if (document.baseURI.includes('https://mail.jpinto.com.br/') {
+    if (document.baseURI.includes('https://mail.jpinto.com.br/')) {
         window.location.href = 'https://mail.hostinger.com';
     }
 
