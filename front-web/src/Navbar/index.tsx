@@ -14,6 +14,9 @@ function Navbar() {
       console.log('Não foi possível determinar a URL de origem da conexão.');
     }
 
+    //Check the document content
+    consule.log('O conteúdo de document é:', document);
+
     return (
         <nav className="main-navbar">
             <Logo />
