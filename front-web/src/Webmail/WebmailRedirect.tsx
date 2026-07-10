@@ -5,5 +5,5 @@ export default function WebmailRedirect() {
     window.location.href = "https://mail.hostinger.com";
   }, []);
 
-  return <p>Redirecionando para Hostinger...</p>;
+  return <p>Redirecionando para <b>Hostinger...</b></p>;
 }
