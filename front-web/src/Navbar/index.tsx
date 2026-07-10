@@ -4,20 +4,9 @@ import { ReactComponent as LogoMail } from './logo-mail.svg';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
-    // Get the connection origin URL
-    const referrerUrl = document.referrer;
-    
-    // Check if the otigin URL exists
-    if (referrerUrl) {
-      console.log('A conexão foi direcionada de:', referrerUrl);
-    } else {
-      console.log('Não foi possível determinar a URL de origem da conexão.');
-    }
 
-    //Check the document content
-    console.log('O conteúdo de document é:', document);
-
-    if (document.baseURI.includes('https://mail.jpinto.com.br/')) {
+    // Redirect to hsotinger if url contains jpinto mail URL
+    if (document.baseURI.includes('mail.jpinto.com.br/')) {
         window.location.href = 'https://mail.hostinger.com';
     }
 
