@@ -15,7 +15,7 @@ function Navbar() {
     }
 
     //Check the document content
-    consule.log('O conteúdo de document é:', document);
+    console.log('O conteúdo de document é:', document);
 
     return (
         <nav className="main-navbar">
